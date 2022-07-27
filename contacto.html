@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafe</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   <header class="header">
+    <div class="container">
+        <div class="bar">
+            <a class="logo" href="index.html">
+                <h1 class="logo__name no-margin center-text">Blog<span class="logo__bold">DeCafé</span></h1>
+            </a>
+            <nav class="navigation">
+                <a href="nosotros.html" class="navigation__link">Nosotros</a>
+                <a href="cursos.html" class="navigation__link">Cursos</a>
+                <a href="contacto.html" class="navigation__link">Contacto</a>
+            </nav>
+        </div>
+    </div>
+    <div class="header__text">
+        <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+        <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+    </div>
+   </header>
+   
+   <main class="container">
+       <h3 class="center-text">Contacto</h3>
+
+       <div class="contacto--background"> </div>
+       <div class="form">
+           <div class="field">
+               <label class="field__label" for="nombre">Nombre</label> <!--for hace que se active la cassila a rellenar apenas clickeqmos en el nombre y da las opciones posibles nombres-->
+               <input class="field__input" class="text" placeholder="Tu nombre" id="nombre">
+           </div>
+
+           <div class="field">
+                <label class="field__label" for="email">E-mail</label> <!--for hace que se active la cassila a rellenar apenas clickeqmos en el nombre-->
+                <input class="field__input" class="email" placeholder="Tu E-mail" id="email">
+            </div>
+
+            <div class="field">
+                <label class="field__label" for="mensaje">Mensaje</label> <!--for hace que se active la cassila a rellenar apenas clickeqmos en el nombre-->
+                <textarea class="field__input field__input--textarea" id="mensaje"></textarea>
+            </div>
+
+            <div class="field">
+                <input type="submit" value="Enviar" class="button primary__button">
+            </div>
+        </div>
+
+   </main>
+   <footer class="footer">
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin center-text">Blog<span class="logo__bold">DeCafé</span></h1>
+                 </a>
+                 
+                <nav class="navigation">
+                    <a href="nosotros.html" class="navigation__link">Nosotros</a>
+                    <a href="cursos.html" class="navigation__link">Cursos</a>
+                    <a href="contacto.html" class="navigation__link">Contacto</a>
+                 </nav>
+            </div>
+        </div>
+   </footer>
+   <script src="js/modernizr.js"></script>
+</body>
+</html>
