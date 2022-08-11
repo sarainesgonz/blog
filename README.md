@@ -1,1 +1,1 @@
-https://sarainesgonz.github.io/blog/nosotros.html 
+https://sarainesgonz.github.io/blog/index.html
